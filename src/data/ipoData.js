@@ -1,133 +1,124 @@
+import novaLogo from '../assets/ipo logo 1.png';
+import oyoLogo from '../assets/ipo logo 2.png';
+import boatLogo from '../assets/ipo logo 3.png';
+import cloudnineLogo from '../assets/ipo logo 4.jpg';
+import olaLogo  from '../assets/ipo logo 5.png';
+import mobikwikLogo  from '../assets/ipo logo 6.png';
+import ixigoLogo  from '../assets/ipo logo 7.png';
+import cmrLogo  from '../assets/ipo logo 8.jpg';
+import wellnessLogo from '../assets/ipo logo 9.png';
+import pkhLogo  from '../assets/ipo logo 10.jpg';
+
 const ipoData = [
   {
-    companyName: "ABC Technologies Ltd.",
+    companyName: "Nova Agritech Ltd.",
     openDate: "2024-07-01",
     closeDate: "2024-07-05",
     priceBand: "₹500 - ₹550",
     lotSize: "20",
-    issueSize: "₹100 Cr",
+    issueSize: "143.81 Cr.",
     listingDate: "2024-07-12",
-    status: "Upcoming"
+    status: "Upcoming",
+    logo: novaLogo
   },
   {
-    companyName: "XYZ Finserv Pvt Ltd.",
+    companyName: "OYO Ltd",
     openDate: "2024-07-10",
     closeDate: "2024-07-14",
     priceBand: "₹300 - ₹320",
     lotSize: "35",
-    issueSize: "₹200 Cr",
+    issueSize: "8430 Cr.",
     listingDate: "2024-07-20",
-    status: "Ongoing"
+    status: "Ongoing",
+    logo: oyoLogo
   },
   {
-    companyName: "LMN Retailers Ltd.",
+    companyName: "Boat Ltd.",
     openDate: "2024-06-20",
     closeDate: "2024-06-24",
     priceBand: "₹150 - ₹170",
     lotSize: "50",
-    issueSize: "₹80 Cr",
+    issueSize: " 2000 Cr.",
     listingDate: "2024-07-01",
-    status: "Closed"
+    status: "Closed",
+    logo: boatLogo
   },
   {
-    companyName: "PQR Logistics Ltd.",
+    companyName: "cloudnine Ltd",
     openDate: "2024-07-15",
     closeDate: "2024-07-19",
-    priceBand: "₹400 - ₹450",
-    lotSize: "25",
-    issueSize: "₹120 Cr",
-    listingDate: "2024-07-27",
-    status: "Upcoming"
+    priceBand: "₹400 - ₹420",
+    lotSize: "40",
+    issueSize: "100cr",
+    listingDate: "2024-07-25",
+    status: "Upcoming",
+    logo: cloudnineLogo
   },
   {
-    companyName: "DEF Pharma Pvt Ltd.",
+    companyName: "OLA Electric Mobility Ltd.",
     openDate: "2024-07-22",
     closeDate: "2024-07-26",
     priceBand: "₹600 - ₹650",
     lotSize: "15",
     issueSize: "₹300 Cr",
     listingDate: "2024-08-02",
-    status: "Upcoming"
+    status: "Upcoming",
+    logo: olaLogo
   },
   {
-    companyName: "GHI Foods Ltd.",
+    companyName: "One Mobikwik Systems Ltd.",
     openDate: "2024-07-28",
     closeDate: "2024-08-01",
     priceBand: "₹250 - ₹270",
     lotSize: "40",
     issueSize: "₹90 Cr",
     listingDate: "2024-08-08",
-    status: "Upcoming"
+    status: "Upcoming",
+    logo: mobikwikLogo
   },
   {
-    companyName: "JKL Textiles Ltd.",
+    companyName: "ixigo Ltd.",
     openDate: "2024-08-03",
     closeDate: "2024-08-07",
     priceBand: "₹350 - ₹370",
     lotSize: "30",
     issueSize: "₹110 Cr",
     listingDate: "2024-08-14",
-    status: "Upcoming"
+    status: "Upcoming",
+    logo: ixigoLogo
   },
   {
-    companyName: "MNO Energy Pvt Ltd.",
+    companyName: "CMR Green Technology Ltd.",
     openDate: "2024-08-10",
     closeDate: "2024-08-14",
     priceBand: "₹700 - ₹750",
     lotSize: "10",
     issueSize: "₹500 Cr",
     listingDate: "2024-08-21",
-    status: "Upcoming"
+    status: "Upcoming",
+    logo: cmrLogo
   },
   {
-    companyName: "STU Fintech Ltd.",
+    companyName: "Wellness Forever Medicare Ltd.",
     openDate: "2024-08-16",
     closeDate: "2024-08-20",
     priceBand: "₹800 - ₹850",
     lotSize: "12",
     issueSize: "₹600 Cr",
     listingDate: "2024-08-27",
-    status: "Upcoming"
+    status: "Upcoming",
+    logo: wellnessLogo
   },
   {
-    companyName: "VWX Healthcare Ltd.",
+    companyName: "PKH Ventures Ltd.",
     openDate: "2024-08-22",
     closeDate: "2024-08-26",
     priceBand: "₹900 - ₹950",
     lotSize: "18",
     issueSize: "₹700 Cr",
     listingDate: "2024-09-02",
-    status: "Upcoming"
-  },
-  {
-    companyName: "YZA Retail Pvt Ltd.",
-    openDate: "2024-08-28",
-    closeDate: "2024-09-01",
-    priceBand: "₹200 - ₹220",
-    lotSize: "45",
-    issueSize: "₹60 Cr",
-    listingDate: "2024-09-08",
-    status: "Upcoming"
-  },
-  {
-    companyName: "BCD Infra Ltd.",
-    openDate: "2024-09-03",
-    closeDate: "2024-09-07",
-    priceBand: "₹1000 - ₹1050",
-    lotSize: "8",
-    issueSize: "₹800 Cr",
-    listingDate: "2024-09-14",
-    status: "Upcoming"
-  },
-  {
-    companyName: "EFG Media Pvt Ltd.",
-    openDate: "2024-09-10",
-    closeDate: "2024-09-14",
-    priceBand: "₹120 - ₹140",
-    lotSize: "60",
-    issueSize: "₹50 Cr",
-    listingDate: "2024-09-21",
-    status: "Upcoming"
+    status: "Upcoming",
+    logo: pkhLogo
   }
 ];
 
