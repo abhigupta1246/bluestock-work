@@ -8,6 +8,7 @@ import ixigoLogo  from '../assets/ipo logo 7.png';
 import cmrLogo  from '../assets/ipo logo 8.jpg';
 import wellnessLogo from '../assets/ipo logo 9.png';
 import pkhLogo  from '../assets/ipo logo 10.jpg';
+
 import React from "react";
 
 const IPOCard = ({ companyName, openDate, closeDate, priceBand, lotSize, issueSize, listingDate, status, logo, issueType }) => {

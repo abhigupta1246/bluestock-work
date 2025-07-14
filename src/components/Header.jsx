@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import gripVertical from "../assets/grip-vertical.png";
 
 const Header = () => {
   return (
@@ -9,7 +10,12 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3 flex-shrink-0">
             <img src={logo} alt="Bluestock Logo" className="w-10 h-10 object-contain" />
-            <span className="w-[161px] h-[29px] text-[24px] font-extrabold tracking-tight text-gray-900 flex items-center" style={{lineHeight: '29px', letterSpacing: '0.01em', fontWeight: 900}}>BLUESTOCK</span>
+            <span
+              className="w-[161px] text-[25px] font-semibold leading-[25px] tracking-normal flex items-center"
+              style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600, lineHeight: '25px', letterSpacing: '0', color: '#1E1E1E' }}
+            >
+              BLUESTOCK
+            </span>
           </div>
           {/* Centered Navigation */}
           <nav className="hidden lg:flex flex-1 justify-center gap-10 w-full">
@@ -22,9 +28,7 @@ const Header = () => {
           {/* Actions */}
           <div className="flex items-center gap-4 flex-shrink-0">
             <span className="hidden md:inline text-gray-400 font-semibold">Sign In</span>
-            <button className="ml-2 p-2 rounded hover:bg-gray-100">
-              <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="11" width="18" height="2" rx="1"/><rect x="3" y="5" width="18" height="2" rx="1"/><rect x="3" y="17" width="18" height="2" rx="1"/></svg>
-            </button>
+            <img src={gripVertical} alt="Menu" style={{ width: 64, height: 64, marginRight: 12 }} className="ml-2 object-contain" />
           </div>
         </div>
       </header>

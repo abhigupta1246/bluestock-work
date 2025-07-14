@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import IPOCard from './components/IPOCard';
 import ipoData from './data/ipoData';
+import FAQSection from './components/FAQSection';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             ))}
           </div>
         </div>
+        <FAQSection />
       </main>
     </div>
   );
