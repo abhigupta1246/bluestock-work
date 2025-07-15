@@ -33,7 +33,7 @@ const FAQSection = () => {
         {faqs.map((faq, idx) => (
           <div
             key={idx}
-            className="bg-white rounded-[10px] shadow-[0_8px_32px_0_rgba(0,0,0,0.15)] px-7 py-6 w-[344px] mx-auto min-h-[100px] flex flex-col justify-center items-center font-[Poppins] my-16"
+            className="bg-white rounded-[10px] shadow-[0_8px_32px_0_rgba(0,0,0,0.15)] pl-7 pr-8 py-6 w-[344px] mx-auto min-h-[100px] flex flex-col justify-center items-center font-[Poppins] my-14"
             style={{ backgroundColor: '#fff' }}
           >
             <div
@@ -43,7 +43,7 @@ const FAQSection = () => {
               <span className="flex-1 text-center font-semibold text-[15px]">
                 {faq.question}
               </span>
-              <span className="text-2xl text-gray-400 ml-2 select-none flex-shrink-0">
+              <span className="text-5xl font-bold text-[#1A4CD8] ml-4 select-none flex-shrink-0 flex items-center self-center">
                 {openIndex === idx ? '–' : '+'}
               </span>
             </div>
